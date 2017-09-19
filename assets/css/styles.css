@@ -170,7 +170,11 @@ h2 .remaining {
 
 .tools {
   background-color: #005F6F;
-  text-align: center
+  text-align: center;
+}
+
+.tools h2 {
+  margin-bottom: 0;
 }
 
 img.tools-we-use-illustration {
