@@ -79,10 +79,23 @@
               <a name="contact"></a>
               <h2><span class="lead">Send Us</span><br><span class="remaining">A Message</span></h2>
             </div>
-            <div id="wufoo-z4szgs8153pzpk">
-            Fill out my <a href="https://wrburgess.wufoo.com/forms/z4szgs8153pzpk">online form</a>.
+            <div class="contact-form-wrapper">
+              <form name="aaa-contact-form" action="thank-you" netlify>
+                <div class="form-group">
+                  <label for="name">Your name</label>
+                  <input type="text" class="form-control form-control-sm" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email-address">Email address</label>
+                  <input type="email" class="form-control form-control-sm" id="email-address">
+                </div>
+                <div class="form-group">
+                  <label for="message body">How can we help you?</label>
+                  <textarea class="form-control form-control-sm" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn">SEND</button>
+              </form>
             </div>
-            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
           </div>
         </div><!-- /.contact -->
       </content>
@@ -101,22 +114,6 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script type="text/javascript">var z4szgs8153pzpk;(function(d, t) {
-      var s = d.createElement(t), options = {
-      'userName':'wrburgess',
-      'formHash':'z4szgs8153pzpk',
-      'autoResize':true,
-      'height':'597',
-      'async':true,
-      'host':'wufoo.com',
-      'header':'show',
-      'ssl':true};
-      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-      s.onload = s.onreadystatechange = function() {
-      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-      try { z4szgs8153pzpk = new WufooForm();z4szgs8153pzpk.initialize(options);z4szgs8153pzpk.display(); } catch (e) {}};
-      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-      })(document, 'script');</script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
