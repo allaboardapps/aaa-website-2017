@@ -39,7 +39,7 @@
   width: 40px;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 450px) {
   .headline img.earth {
     height: 40px;
     width: 40px;
@@ -69,6 +69,6 @@
   }
 }
 
-@media(min-width: 800px) {
+@media(min-width: 450px) {
 
 }

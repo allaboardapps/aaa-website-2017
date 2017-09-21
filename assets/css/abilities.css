@@ -8,7 +8,7 @@
   height: 60px;
   position: absolute;
   top: 90px;
-  left: 70px;
+  left: 60%;
   width: 60px;
   z-index: 4;
 }
@@ -19,7 +19,7 @@
 
 .abilities img.comet {
   height: 80px;
-  left: 80px;
+  left: 5%;
   position: absolute;
   top: 500px;
   width: 80px;
@@ -42,7 +42,7 @@
 }
 
 
-@media(max-width: 800px) {
+@media(max-width: 450px) {
   .abilities {
     text-align: left;
   }
@@ -75,6 +75,6 @@
   }
 }
 
-@media(min-width: 800px) {
+@media(min-width: 450px) {
 
 }
