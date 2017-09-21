@@ -31,7 +31,7 @@
 }
 
 @media(max-width: 800px) {
-  .col-12 {
+  .contact .col-12 {
     padding-left: 0;
   }
 

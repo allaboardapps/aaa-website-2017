@@ -1,5 +1,4 @@
 .abilities {
-  background: url("../images/star-field.svg");
   text-align: center;
   padding-bottom: 20px;
 }
@@ -17,6 +16,10 @@
   width: 80%;
 }
 
+.abilities .planet {
+  background: url("../images/abilities-planet.svg") no-repeat center;
+}
+
 .abilities img.comet {
   height: 80px;
   left: 5%;
@@ -24,13 +27,6 @@
   top: 500px;
   width: 80px;
   z-index: 4;
-}
-
-.abilities img.quasar2 {
-  height: 50px;
-  width: 50px;
-  z-index: 4;
-  position: absolute;
 }
 
 .abilities img.quasar3 {
@@ -41,6 +37,108 @@
   z-index: 6;
 }
 
+.abilities .row.skills {
+  height: 200px;
+}
+
+.abilities .skills img {
+  top: 0px;
+  left: 25%;
+  position: absolute;
+  z-index: 4;
+  width: 50%;
+}
+
+.abilities .skills p {
+  font-family: "industry", "helvetica", "sans-serif";
+  position: absolute;
+  z-index: 5;
+}
+
+.abilities img.quasar1 {
+  height: 60px;
+  top: 10%;
+  left: 60%;
+  width: 60px;
+}
+
+.abilities img.quasar3 {
+  left: 80%;
+}
+
+.abilities img.comet {
+/*  left: 50%;
+  top: 0%;*/
+}
+
+.abilities .database img {
+  left: 10%;
+  top: 10%;
+  width: 70%;
+}
+
+.abilities .database p {
+  left: 12%;
+  top: 25%;
+  font-size: 0.9em;
+}
+
+.abilities .search-engine img {
+  width: 70%;
+}
+
+.abilities .search-engine p {
+  top: 15%;
+  right: 15%;
+  font-size: 0.9em;
+}
+
+.abilities .ecommerce img {
+  top: 0;
+  left: 20%;
+  width: 60%;
+}
+
+.abilities .ecommerce p {
+  top: 10%;
+  left: 25%;
+  font-size: 0.9em
+}
+
+.abilities .web-and-mobile img {
+  width: 70%;
+  right: 0;
+}
+
+.abilities .web-and-mobile p {
+  top: 10%;
+  right: 15%;
+  font-size: 0.8em;
+}
+
+.abilities .cms img {
+  top: 20%;
+  left: 0;
+  width: 50%;
+}
+
+.abilities .cms p {
+  top: 28%;
+  left: 10%;
+  font-size: 0.8em;
+}
+
+.abilities .data-viz img {
+  top: 0;
+  left: 30%;
+  width: 240px;
+}
+
+.abilities .data-viz p {
+  bottom: 0;
+  left: 40%;
+  font-size: 0.8em;
+}
 
 @media(max-width: 450px) {
   .abilities {
@@ -49,20 +147,9 @@
 
   .abilities img.quasar1 {
     height: 60px;
-    top: 20%;
+    top: 10%;
     left: 60%;
     width: 60px;
-  }
-
-  .abilities img.what-we-do-illustration {
-    width: 100%;
-  }
-
-  .abilities img.quasar2 {
-    height: 40px;
-    top: 90%;
-    left: 5%;
-    width: 40px;
   }
 
   .abilities img.quasar3 {
@@ -71,7 +158,77 @@
 
   .abilities img.comet {
     left: 50%;
-    top: 5%;
+    top: 0%;
+  }
+
+  .abilities .database img {
+    top: 30px;
+    left: 2px;
+    width: 100%;
+  }
+
+  .abilities .database p {
+    top: 50px;
+    left: 6px;
+    font-size: 0.8em;
+  }
+
+ .abilities .search-engine img {
+    top: 14px;
+    left: 38px;
+  }
+
+  .abilities .search-engine p {
+    top: 24px;
+    left: 85px;
+    font-size: 0.7em;
+  }
+
+  .abilities .ecommerce img {
+    top: -35px;
+    left: -20px;
+    width: 100%;
+  }
+
+  .abilities .ecommerce p {
+    top: -20px;
+    left: 0px;
+    font-size: 0.8em;
+  }
+
+  .abilities .web-and-mobile img {
+    left: 0;
+    width: 100%;
+  }
+
+  .abilities .web-and-mobile p {
+    top: 12px;
+    left: 64px;
+    font-size: 0.7em;
+  }
+
+  .abilities .cms img {
+    top: -10px;
+    left: 20px;
+    width: 100%;
+  }
+
+  .abilities .cms p {
+    top: 5px;
+    left: 57px;
+    font-size: 0.9em;
+  }
+
+  .abilities .data-viz img {
+    top: -12px;
+    left: 0;
+    width: 110%;
+  }
+
+  .abilities .data-viz p {
+    top: 112px;
+    left: 30px;
+    font-size: 0.8em;
   }
 }
 
