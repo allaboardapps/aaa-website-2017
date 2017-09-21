@@ -17,12 +17,12 @@
 }
 
 .headline .logo-and-name h1 {
-  font-size: 1.5em;
+  font-size: 2.0em;
 }
 
 .headline img.logo {
-  height: 90px;
-  width: 90px;
+  height: 60%;
+  width: 60%;
   padding-bottom: 10px;
 }
 

@@ -174,36 +174,37 @@
   }
 
  .abilities .search-engine img {
-    top: 14px;
-    left: 38px;
+    top: 30%;
+    right: 0;
+    width: 100%;
   }
 
   .abilities .search-engine p {
-    top: 24px;
-    left: 85px;
-    font-size: 0.7em;
+    top: 40%;
+    right: -5%;
+    font-size: 0.7em
   }
 
   .abilities .ecommerce img {
-    top: -35px;
-    left: -20px;
+    top: 25%;
+    left: -5%;
     width: 100%;
   }
 
   .abilities .ecommerce p {
-    top: -20px;
+    top: 30%;
     left: 0px;
     font-size: 0.8em;
   }
 
   .abilities .web-and-mobile img {
     left: 0;
-    width: 100%;
+    width: 110%;
   }
 
   .abilities .web-and-mobile p {
-    top: 12px;
-    left: 64px;
+    top: 8%;
+    right: 5%;
     font-size: 0.7em;
   }
 
