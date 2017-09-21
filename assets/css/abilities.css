@@ -13,6 +13,10 @@
   z-index: 4;
 }
 
+.abilities img.what-we-do-illustration {
+  width: 80%;
+}
+
 .abilities img.comet {
   height: 80px;
   left: 80px;
@@ -37,6 +41,7 @@
   z-index: 6;
 }
 
+
 @media(max-width: 800px) {
   .abilities {
     text-align: left;
@@ -50,7 +55,7 @@
   }
 
   .abilities img.what-we-do-illustration {
-    width: width: 100%;
+    width: 100%;
   }
 
   .abilities img.quasar2 {
