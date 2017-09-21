@@ -9,7 +9,8 @@
 }
 
 @media(max-width: 768px) {
-  .tools img.tools-we-use-illustration {
+  .tools  img.tools-we-use-illustration {
+    font-family: "industry", "sans-serif";
     height: 100%;
     width: 100%;
   }
